@@ -1,7 +1,7 @@
 import app from './app.js';
 import dotenv from 'dotenv';
 
-declare var process: {
+declare let process: {
   env: {
     PORT: number,
   }
